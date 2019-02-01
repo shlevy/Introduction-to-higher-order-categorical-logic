@@ -1,0 +1,709 @@
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       362a3b89-c343-4bac-a0e2-3ec1bf2a203f
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:28]
+  :END:
+Informally, [a concrete category] is [a category whose objects are sets with some notion of structure and whose arrows are structure-preserving mappings between those sets.]
+** Examples
++ *Sets*
++ Monoids
++ Pre-ordered sets
++ Small graphs
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       bcbe02dc-b4bd-4452-b41b-b463da40b2df
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:39]
+  :END:
+[An arrow in a concrete category] is also known as a [morphism].
+* Category                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       f4c45f5e-6cab-431a-9276-ea6968a04474
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:03]
+  :END:
+The category [*Sets*] has as its arrows [mappings between sets].
+** Prove it's a category
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       902029b9-ad8a-43be-bc49-3b0e93876e19
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:27]
+  :END:
+[A semigroup] is [a structure with an associative binary operation].
+* Notation                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       e185ddcf-26a4-4882-80cf-6e3b5483c42c
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:33]
+  :END:
+The [binary operation] of a semigroup is often notated as [multiplication].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       1dfa887c-a684-4024-90f3-1f067dfeaa37
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:51]
+  :END:
+[A monoid] is [a semigroup with a unit].
+* Notation                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       5643edbe-e5ce-4a5b-9824-9db5601a25ab
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:39]
+  :END:
+The [unit] of a monoid is often notated as [1].
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       07c6776f-e4e8-4c97-9d3d-422ee61a59d2
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:56]
+  :END:
+[A morphism over an *algebraic* structure] is also known as a [homomorphism].
+* Slogan                                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       ed2052c9-fe2b-4846-844e-e9c5a438c1df
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:29]
+  :END:
+According to Lambek and Scott's Slogan I, [many objects of interest in mathematics] congregate in [concrete categories].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       0e685ab2-9ffd-45bf-aa64-89a719b8ca03
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:27]
+  :END:
+A [directed graph] is [a structure consisting of a collection of nodes and a collection of oriented edges between those nodes].
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       0ac1e738-507c-47b6-b73c-17781739d4ec
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:51]
+  :END:
+In a category-theory context, a directed graph may be referred to as [simply a graph].
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       b4c9cb09-84ac-4c7b-af38-c819e5424f52
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:51]
+  :END:
+In a category-theory context, a graph's nodes may be referred to as [objects].
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       0964dc12-15b3-4a0e-943c-a3d74a945b30
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:55]
+  :END:
+In a category-theory context, a graph's edges may be referred to as [arrows].
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       5c0a5628-0f0e-42c7-b405-bd0d22ac4745
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:43]
+  :END:
+In a category-theory context, the source/target of a graph arrow may be referred to as the [domain/codomain].
+* Notation                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       5787caa4-3c14-4ed4-b9d6-8d4fd774448d
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:38]
+  :END:
+In a category-theory context, "the source of f is A and the target of f is B" is notated [f : A → B].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       bfb96b2f-d2aa-4f5f-b65f-9811d51092d8
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:45]
+  :END:
+A [deductive system] is [a directed graph in which each object A has a distinguished identity arrow 1_A : A → A and given f : A → B and g : B → C there is a distinguished composition arrow g∘f : A → C].
+* Perspective                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide2cloze
+  :ID:       e73e4395-65bb-451f-902d-804949686ebc
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:04]
+  :END:
+For a deductive system, what may be considered [objects] in a [category theory] context can be considered [formulas] in a [logic] context.
+* Perspective                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide2cloze
+  :ID:       3fb459b7-ec0c-42c0-9b49-212abd7485e8
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:24]
+  :END:
+For a deductive system, what may be considered [arrows] in a [category theory] context can be considered [deductions/proofs] in a [logic] context.
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       54b28f5b-d724-4c16-951b-015147f46c77
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:44]
+  :END:
+A [category] is [a deductive system in which for each arrow f : A → B, g : B → C, h : C → D, f ∘ 1_A = f = 1_B ∘ f and (h ∘ g) ∘ f = h ∘ (f ∘ g)].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       c21d5338-f1f1-4880-99ad-d686f26ab8ae
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:45]
+  :END:
+A [small category] is [a category whose collection of objects is a set and whose collection of arrows is a set].
+* Slogan                                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       85bac252-ce0f-4b6a-9353-4d5230c7099d
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:04]
+  :END:
+According to Lambek and Scott's Slogan II, [many objects of interest to mathematicians] are themselves [small categories].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       ee2fc93a-c814-4cf7-83a6-bf524a78b919
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:50]
+  :END:
+A [discrete category] is [a category whose only arrows are identity arrows].
+* Categorical perspective                                             :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       257edcd5-d695-4a1a-a1cb-21fa48f79aae
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:52]
+  :END:
+[A set] can be seen categorically as [a small discrete category].
+** Prove it
+* Categorical perspective                                             :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       6f179746-edc2-4a19-8205-d13d4dd308d1
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:02]
+  :END:
+[A monoid] can be seen categorically as [a single-object category].
+** Details
+The arrows are elements, the identity arrow is the unit, composition is multiplication
+** Prove it
+* Categorical perspective                                             :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       f8ad136d-1f21-4528-9404-a0777f6a14aa
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:30]
+  :END:
+[A pre-order] can be seen categorically as [a category with at most one f : A → B for any given A and B]
+** Details
+The objects are the elements, the arrow exists exactly when A ≤ B.
+** Prove it
+* Category                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       87e114d7-3d3a-4baf-a555-66f52c29a65d
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:45]
+  :END:
+The category [*Cat*] has as its arrows [functors between small categories].
+** Prove it's a category
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       c91e874b-3c95-48a9-b4b2-120831b21907
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:33]
+  :END:
+A [functor] is [a mapping from one category to another that preserves domains, codomains, identities, and composition].
+* Proposition                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       fa88aaee-236c-4a07-9b9c-841d3382b884
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:43]
+  :END:
+We can regard morphisms between sets, monoids, and preorders as functors between the morphism source and target considered as small categories.
+** Prove it
+* Slogan                                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       ef36d27a-578c-42de-b1e5-4c1577b3a5e9
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:39]
+  :END:
+According to Lambek and Scott's Slogan III, [many objects of interest to mathematicians] may be viewed as [functors from small categories to *Sets*].
+* Functorial perspective                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       c52f09e7-864f-4fb4-97d2-92d53e7c5e1f
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:01]
+  :END:
+A [set] can be seen functorially as [a functor from the small category · to *Sets*].
+** Prove it
+* Functorial perspective                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       3d77fd3f-22c0-4523-8d2e-25cbe7199163
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:00]
+  :END:
+A [small graph] can be seen functorially as [a functor from the small category · ⇉ · to *Sets*].
+** Prove it
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       e114f4cb-77dd-4362-87f2-481183eec811
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:02]
+  :END:
+[An M-set] is [A set A with some mapping M × A → A such that 1 · a = a and (m · m') · a = m · (m' · a)] for some monoid M.
+* Functorial perspective                                              :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       1f21450a-de49-4ee4-b9b4-c31bc381126a
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:44]
+  :END:
+[An M-set for some monoid M] can be seen functorially as [a functor from an appropriate one-object small category to *Sets*].
+** Prove it
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       049d6756-a699-42df-b0b0-64b8e503cc04
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:38]
+  :END:
+For a given category C, [C^op] is [the category with the same objects as C but with the arrows reversed].
+** Prove it exists.
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: show1cloze
+  :ID:       835c3dd2-030c-4c27-a6d7-b038f1604217
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:38]
+  :END:
+For a given category C, [C^op] is known as the [opposite] or [dual] of C.
+* Terminology                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       6e7a3e90-af5b-461f-8645-d124a2dbb143
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:55]
+  :END:
+[A functor from A^op to B] is also known as [a contravariant functor from A to B].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       4ad9636f-d3e0-4509-8e50-442980ac8e21
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:01]
+  :END:
+For a given categories A and B, [A × B] is [the category whose objects are pairs of objects from A and B, arrows are pairs of appropriately matching arrows from A and B, with composition defined component-wise and identity the pair of identities.].
+** Prove it exists
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       0b3f206a-e0c2-43c3-beaa-de9f61b8f040
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:00]
+  :END:
+[An isomorphism] is [an arrow f : A → B such that there is some g : B → A such that f ∘ g = 1_B and g ∘ f = 1_A].
+* Notation                                                            :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       0810fea8-e6ff-4f3e-b427-c2c2d61cff7d
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:35]
+  :END:
+If [an isomorphism exists between A and B], we can notate that fact as [A ≅ B].
+* Categorical perspective                                             :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       81f17d99-8b89-4c2f-9a0c-b2caf04700c3
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 16:02]
+  :END:
+[A group] can be seen categorically as [a single-object category whose arrows are all isomorphisms].
+** Details
+The arrows are elements, the identity arrow is the unit, composition is multiplication, the isomorphism existential is inversion
+** Prove it
+* Proposition                                                         :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       da7332e6-1be5-4aa4-b244-058c7cc260c0
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:40]
+  :END:
+For categories A, B, and C, A × *1* ≅ A, (A × B) × C ≅ A × (B × C), A × B ≅ B × A
+** Prove it
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       c2c162cb-7991-45a6-bde5-88c6cb438dd6
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:55]
+  :END:
+[A faithful functor] is [a functor F such that for f, g : A → B, F(f) = F(g) implies f = g].
+* Excercise                                                           :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :ID:       1b62cabd-ae21-41d5-9ed2-65a3fddebe8b
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 15:58]
+  :END:
+Show that for any (informally) concrete category A, there is a functor U : A → *Sets* that forgets the structure and is faithful.
+** Show it
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       f3bc6690-eefc-40d6-83b7-0a4ccbb85790
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:38]
+  :END:
+Formally, [a concrete category] is [a category paired with a faithful functor from it to *Sets*].
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       1e64c12e-05a1-4cd1-a935-b2a13493020b
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:37]
+  :END:
+For a given category C, [Δ_C] is [the functor from C to C × C that takes c to (c, c) and f to (f, f)]
+** Prove it exists
+* Definition                                                          :drill:
+  SCHEDULED: <2019-02-05 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       ab006d7b-a401-4bb3-accf-947e325bc276
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-02-01 Fri 17:31]
+  :END:
+For a given category C, [◯_C] is [the functor from C to *1*]
+** Prove it exists
