@@ -1,0 +1,147 @@
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+** Term
+Natural transformation t : F \to G
+** Meaning
+A mapping between functors F, G : A \to B given by a family of arrows t(a) : F(a) \to G(a) in B, one for each object a in A, that makes the following diagram commute for each f : a \to b in A:
+#+ATTR_ORG: :width 500
+[[./natural-transformation.jpg]]
+* Category                                                            :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+Given categories A and B, the [functor category Bᴬ] has as its arrows [natural transformations between functors from A to B].
+** Details
+Identity: 1_F(a) = 1_{F(a)}
+Composition: Given t : F → G, t' : G → H, (t' ∘ t)(a) = t'(a) ∘ t(a)
+** Prove the laws
+* Universal property instance                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+The [functor category] construction is the [categorical exponent] instantiated in *Cat*
+** Prove it
+* Functor categorical perspective                                     :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+The category [*Sets*] can be identified with the functor category [*Sets*^{*1*}].
+** Prove it
+* Functor categorical perspective                                     :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+The category [of small graphs] can be identified with the functor category [*Sets*^{· ⇉ ·}].
+** Prove it
+* Functor categorical perspective                                     :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+The category [of M-sets for some monoid M] can be identified with the functor category [*Sets*ᴹ for some monoid M].
+** Prove it
+* Proposition                                                         :drill:
+For any object A in a category with a terminal object, A^{*1*} exists and is isomorphic to A
+** Prove it
+* Proposition                                                         :drill:
+For any objects A, B, and C where all terms are defined, (A × B)^C ≅ A^C × B^C.
+** Prove it
+* Proposition                                                         :drill:
+For any objects A, B, and C where all terms are defined,  A^{B × C} ≅ (Aᴮ)^C
+** Prove it
+* Functor                                                             :drill:
+Exhibit a functor from C^{A × B} → (Cᴮ)ᴬ in *Cat*, and prove it's an isomorphism
+** Prove it
+* Definition                                                          :drill:
+Define and diagram composition of a natural transformation with a functor
+** Define it
+* Proposition                                                         :drill:
+Composition of natural transformations with functors distributes over composition of natural transformations
+** Prove it
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+[Hom_A(a, b)] is [the class of arrows a → b].
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+A category A is said to be [locally small] if [Hom_A(a, b) is a set for all a and b in A].
+* Proposition                                                         :drill:
+A category is small iff it is locally small and its class of objects is a set.
+** Prove it
+* Functor                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Exhibit or name the following functor
+** Name
+Hom_A
+** Action
+∀ (a, b) : A^{op} × A, F (a, b) ↦ Hom(a,b)
+∀ (g, h) : (a, b) → (a', b'), F (g, h) ↦ λ f, h ∘ f ∘ g
+** When does it exist? Prove it
+* Functor                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Exhibit or name the following functor, and prove it exists
+** Name
+Hom^{*}_{A^op} the contravariant Yoneda functor
+
+** Action
+∀ (b) : A^{}, a ↦ Hom(a, b)
+           g ↦ (∘ g)
+∀ (h) : b → b', a ↦ (h ∘)
+** When does it exist? Prove it
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+A [subcategory B of A] is [a category B whose class of objects and arrows is contained in A's class of objects and arrows, respectively, which is closed under source, target, identity, and composition].
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+A subcategory B of A is said to be [full] when [for any objects x, y of B, Hom_B(x, y) = Hom_A(x, y)].
+* Notation                                                            :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+In a functor category Bᴬ, [Hom_{Bᴬ}(F, G)] is sometimes notated as [Nat_{Bᴬ}(F, G)].
+* Functor                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Exhibit or name the following functor, and prove it exists
+** Name
+h_a, contravariant hom-functor of a
+** Action
+F (b) ↦ Hom(b, a)
+F (g : b → b') ↦ (∘ g)
+** When does it exist? Prove it
+* Proposition                                                         :drill:
+State and prove the contravariant Yoneda lemma
+** State it
+∀ A, locally small A, F : A^{op} → *Sets*, ∀ a : A, Hom(hₐ, F) ≅ F(a), and that isomorphism is natural in a and F.
+** Prove it
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+A functor F : A → B is said to be [full] if [∀ a b (f' : F a → F b), ∃ f : a → b, F f = f']
+* Definition                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+A functor F : A → B is said to be [a full embedding] if [it is full, faithful, and ∀ a b : A, F a = F b → a = b].
+* Proposition                                                         :drill:
+If A is locally small, the contravariant Yoneda functor is a full embedding
+** Prove it
+* Exercise                                                            :drill:
+Show that the objects of A² can be viewed as arrows of A, and that 'source' and 'target' can be viewed as functors A² → A
+** Show it
+* Exercise                                                            :drill:
+Given two functors F, G : A → B, show that for any t : F → G there is a functor t' : A → B² that captures the same structure, such that source ∘ t' = F and  target ∘ t' = G.
